@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: sans-serif;
+
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    /* background-color: bisque; */
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+nav h1 i {
+    rotate: 45deg;
+    display: inline-block;
+}
+
+nav h1 {
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav button {
+    padding: 9px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.part-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.center {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    padding: 80px 50px;
+}
+
+.center-part-1 {
+    width: 46%;
+    height: 100%;
+}
+
+.center-part-1 h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.center-part-1 p {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.center-part-1 button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 2rem;
+}
+
+.center-part-2 {
+    width: 54%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.center-part-2 img {
+    height: 100%;
+}
+
+.section1bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 120px;
+}
+
+.section1bottom img {
+    height: 40px;
+}
+
+.section-2 {
+    padding: 20px 50px;
+    margin-top: 3rem;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+}
+
+.services h3 {
+    background-color: #BDD85F;
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.section-2 p {
+    width: 50%;
+}
+
+.cards {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.cards2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.card1 {
+    width: 48%;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px 2px 8px 2px;
+    border-color: black;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+}
+
+
+.card2 {
+    width: 48%;
+    height: 100%;
+    background-color: black;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+}
+
+
+.card3 {
+    width: 48%;
+    height: 100%;
+    background-color: black;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+}
+
+.card4 {
+    width: 48%;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px 2px 8px 2px;
+    border-color: black;
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+}
+
+.text {
+    width: 50%;
+}
+
+.text span {
+    background-color: #BDD85F;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.img {
+    height: 200px;
+}
+
+.section-3 {
+    padding: 20px 50px;
+    margin-top: 4rem;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 50px 30px;
+    background-color: rgba(128, 128, 128, 0.525);
+    border-radius: 10px;
+}
+
+.container-part-1 {
+    width: 50%;
+    height: 100%;
+}
+
+
+.container-part-1 h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container-part-1 p {
+    font-size: 14px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.container-part-1 button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 60px;
+    margin-top: 2rem;
+}
+
+.container-part-2 {
+    width: 54%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.container-part-2 img {
+    height: 100%;
+}
